@@ -23,7 +23,12 @@ Car myCar = new Car("Toyota", 4);
 //myCar.Start();
 //myCar.ShowDetails();
 
-Eagle eagle = new Eagle("Golden Eagle");
-eagle.Eat();   
-eagle.Fly();   
-eagle.Hunt();  
+
+// Assesment
+//Eagle eagle = new Eagle("Golden Eagle");
+//eagle.Eat();   
+//eagle.Fly();   
+//eagle.Hunt();
+
+CollectionsPractice.NonGenricCollections();
+CollectionsPractice.GenericCollections();
