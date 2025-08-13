@@ -1,8 +1,10 @@
 ﻿// Arrays
 using BirdInheritanceExample;
 using CSharpBasicsPractice;
+using System.Collections;
 using System.Linq.Expressions;
 using static CSharpBasicsPractice.Square;
+using static System.Net.Mime.MediaTypeNames;
 
 Arrays arrExample = new Arrays();
 //arrExample.RunExamples();
@@ -30,5 +32,18 @@ Car myCar = new Car("Toyota", 4);
 //eagle.Fly();   
 //eagle.Hunt();
 
-CollectionsPractice.NonGenricCollections();
-CollectionsPractice.GenericCollections();
+//CollectionsPractice.NonGenricCollections();
+//CollectionsPractice.GenericCollections();
+//CollectionsExamples.GenericCollections();
+//CollectionsExamples.AllGenericCollections();
+//CollectionsExamples.NonGenericCollections();
+
+AccessSpecifiers accessSpecifiers = new AccessSpecifiers();
+//accessSpecifiers.CallAllTests();
+
+AcessTest at = new AcessTest();
+//at.Test();
+
+LinqCSharp obj = new LinqCSharp();
+obj.Execute();
+
